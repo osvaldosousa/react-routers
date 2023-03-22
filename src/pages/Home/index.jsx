@@ -1,8 +1,12 @@
+import Banner from "../../components/Banner"
+
+
 function Home() {
   return (
-    <div>
-      Casa 
-    </div>
+    <main>
+      <Banner/>
+      <h1>Banner</h1>
+    </main>
   )
 }
 

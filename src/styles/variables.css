@@ -1,0 +1,11 @@
+:root {
+  --color-primary: #041833;
+  --color-primary-light: #1875E8;
+  --color-main-text: #041833;
+  --color-secondery-text: #444444;
+  --color-white: #FFF;
+  --font-main: 'Raleway', sans-serif;
+  --font-secondery: 'Playfair Display', sans-serif;
+
+  font-family: var(--font-main);
+}

@@ -1,10 +1,12 @@
+import { BrowserRouter } from 'react-router-dom'
 import './styles/reset.css'
 import './styles/variables.css'
 
-
 function App() {
   return (
-    <h1>Olá</h1>
+    <BrowserRouter>
+      
+    </BrowserRouter>
   )
 }
 

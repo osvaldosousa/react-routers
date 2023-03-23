@@ -1,11 +1,16 @@
-import Banner from "../../components/Banner"
+import styles from './Home.module.css'
+import posts from '../../json/posts.json'
 
+import Banner from '../../components/Banner'
+import Posts from '../../components/Posts/idenx'
 
 function Home() {
   return (
     <main>
-      <Banner/>
-      <h1>Banner</h1>
+      <Banner />
+      <ul className={styles.posts}>
+        <Posts posts={posts} />
+      </ul>
     </main>
   )
 }

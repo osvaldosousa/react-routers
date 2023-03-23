@@ -6,12 +6,9 @@ import Posts from '../../components/Posts/idenx'
 
 function Home() {
   return (
-    <main>
-      <Banner />
       <ul className={styles.posts}>
         <Posts posts={posts} />
       </ul>
-    </main>
   )
 }
 

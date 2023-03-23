@@ -1,6 +1,6 @@
 import styles from './Posts.module.css'
 
-function Posts({ posts }) {
+function PostCard({ posts }) {
   console.log(posts)
 
   return (
@@ -25,4 +25,4 @@ function Posts({ posts }) {
   )
 }
 
-export default Posts
+export default PostCard

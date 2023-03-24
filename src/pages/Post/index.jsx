@@ -10,7 +10,7 @@ function Post() {
   
   return (
     <PostModel
-      imageBanner={`../../../public/posts/${postSearch.id}/capa.png`}
+      imageBanner={`../../../public/assets/posts/${postSearch.id}/capa.png`}
       contentTitle={postSearch.titulo}
     >
       {postSearch.texto}

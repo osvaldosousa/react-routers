@@ -11,7 +11,7 @@ function PostCard({ posts }) {
               <div className={styles.post}>
                 <img
                   className={styles.banner}
-                  src={`../../../public/posts/${post.id}/capa.png`}
+                  src={`../../../public/assets/posts/${post.id}/capa.png`}
                   alt={`Capa do post`}
                 />
 

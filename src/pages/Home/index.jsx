@@ -2,7 +2,7 @@ import styles from './Home.module.css'
 import posts from '../../json/posts.json'
 
 import Banner from '../../components/Banner'
-import PostCard from '../../components/PostCard/idenx'
+import PostCard from '../../components/PostCard'
 
 function Home() {
   return (

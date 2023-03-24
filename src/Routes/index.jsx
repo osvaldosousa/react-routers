@@ -6,10 +6,12 @@ import Footer from '../components/Footer'
 import RootRoute from '../components/RootRoute'
 import Post from '../pages/Post'
 import NotFound from '../pages/NotFound'
+import ScrollToTop from 'src/components/ScrollToTop'
 
 function RoutesApp() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Menu />
 
       <Routes>

@@ -1,0 +1,16 @@
+.buttonMain {
+  display: inline-block;
+  border-radius: 24px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  background-color: var(--color-primary-light);
+  color: var(--branco);
+  border: 3px solid var(--color-primary-light);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.buttonMain:hover {
+  border: 3px solid var(--color-primary);
+}

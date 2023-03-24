@@ -1,7 +1,6 @@
 import styles from './Posts.module.css'
 
 function PostCard({ posts }) {
-  console.log(posts)
 
   return (
     <>

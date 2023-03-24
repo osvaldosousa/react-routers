@@ -13,13 +13,14 @@ function RoutesApp() {
       <Menu />
 
       <Routes>
-        <Route path='/' element={<RootRoute />}>
+        <Route path="/" element={<RootRoute />}>
           <Route index element={<Home />} />
           <Route path="about-me" element={<AboutMe />} />
-          <Route path="posts/:id" element={<Post />} />
         </Route>
-        
-        <Route path="*" element={<NotFound/>} />
+
+        <Route path="posts/:id/*" element={<Post />} />
+
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
       <Footer />

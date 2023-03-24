@@ -1,5 +1,6 @@
 import styles from './NotFound.module.css'
 import dogNotFound from 'src/assets/erro_404.png'
+import Button from '../../components/Button'
 
 function NotFound() {
   return (
@@ -19,7 +20,7 @@ function NotFound() {
         </p>
 
         <div className={styles.buttonContainer}>
-          <button>voltar</button>
+          <Button stylesMod="hug">Voltar</Button>
         </div>
 
         <img

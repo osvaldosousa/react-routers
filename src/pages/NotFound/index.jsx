@@ -1,8 +1,11 @@
 import styles from './NotFound.module.css'
 import dogNotFound from 'src/assets/erro_404.png'
-import Button from '../../components/Button'
+import Button from 'src/components/Button'
+import { useNavigate } from 'react-router-dom'
 
 function NotFound() {
+  const backLastPage = useNavigate()
+
   return (
     <>
       <div className={styles.notFoundContainer}>
@@ -19,7 +22,10 @@ function NotFound() {
           inicial.
         </p>
 
-        <div className={styles.buttonContainer}>
+        <div
+          onClick={() => backLastPage(-1)}
+          className={styles.buttonContainer}
+        >
           <Button stylesMod="hug">Voltar</Button>
         </div>
 

@@ -1,14 +1,19 @@
 import styles from './Home.module.css'
 import posts from 'src/json/posts.json'
 
-import Banner from '../../components/Banner'
 import PostCard from 'src/components/PostCard'
 
 function Home() {
   return (
-      <ul className={styles.posts}>
-        <PostCard posts={posts} />
-      </ul>
+    <ul className={styles.posts}>
+      {posts.map(post => {
+        return (
+          <li key={post.id}>
+            <PostCard post={post} />
+          </li>
+        )
+      })}
+    </ul>
   )
 }
 

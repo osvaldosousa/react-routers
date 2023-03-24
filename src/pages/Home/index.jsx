@@ -1,8 +1,8 @@
 import styles from './Home.module.css'
-import posts from '../../json/posts.json'
+import posts from 'src/json/posts.json'
 
 import Banner from '../../components/Banner'
-import PostCard from '../../components/PostCard'
+import PostCard from 'src/components/PostCard'
 
 function Home() {
   return (

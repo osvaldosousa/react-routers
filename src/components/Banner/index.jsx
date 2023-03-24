@@ -1,6 +1,6 @@
 import styles from './Banner.module.css'
-import circle from '../../assets/circle-gradient.png'
-import perfil from '../../assets/perfil.jpg'
+import circle from 'src/assets/circle-gradient.png'
+import perfil from 'src/assets/perfil.jpg'
 
 function Banner() {
   return (

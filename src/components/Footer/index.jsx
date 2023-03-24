@@ -1,6 +1,6 @@
 import styles from './Footer.module.css'
 
-import { ReactComponent as CopyRight } from '../../assets/copy-right.svg'
+import { ReactComponent as CopyRight } from 'src/assets/copy-right.svg'
 
 function Footer() {
   return (

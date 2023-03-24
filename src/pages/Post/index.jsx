@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import PostModel from '../../components/PostModel'
-import posts from '../../json/posts.json'
+import PostModel from 'src/components/PostModel'
+import posts from 'src/json/posts.json'
 
 function Post() {
   const urlSearch = useParams()

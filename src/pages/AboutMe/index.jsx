@@ -1,8 +1,8 @@
-import imageBanner from '../../assets/about-me-banner.png'
-import imageProfile from '../../assets/perfil.jpg'
+import imageBanner from 'src/assets/about-me-banner.png'
+import imageProfile from 'src/assets/perfil.jpg'
 import styles from './AboutMe.module.css'
 
-import PostModel from '../../components/PostModel'
+import PostModel from 'src/components/PostModel'
 
 function AboutMe() {
   return (

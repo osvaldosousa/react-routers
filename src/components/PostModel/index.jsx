@@ -5,7 +5,7 @@ function PostModel({ children, imageBanner, contentTitle }) {
     <article className={styles.postModelContainer}>
       <div
         className={styles.imageBanner}
-        style={{ background: `url(${imageBanner})` }}
+        style={{ backgroundImage: `url(${imageBanner})`}}
       ></div>
 
       <h2 className={styles.title}>{contentTitle}</h2>

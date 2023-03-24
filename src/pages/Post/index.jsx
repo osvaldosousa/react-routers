@@ -11,6 +11,8 @@ function Post() {
 
   const postSearch = posts.find(post => post.id === Number(urlSearch.id))
 
+  if (!postSearch) return <NotFound />
+
   return (
     <PostModel
       imageBanner={`../../../public/assets/posts/${postSearch.id}/capa.png`}

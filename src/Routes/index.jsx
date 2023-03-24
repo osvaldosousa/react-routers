@@ -5,6 +5,7 @@ import Menu from '../components/Menu'
 import Footer from '../components/Footer'
 import RootRoute from '../components/RootRoute'
 import Post from '../pages/Post'
+import NotFound from '../pages/NotFound'
 
 function RoutesApp() {
   return (
@@ -18,7 +19,7 @@ function RoutesApp() {
           <Route path="posts/:id" element={<Post />} />
         </Route>
         
-        <Route path="*" element={<h1>Deu Ruim Aqui 404</h1>} />
+        <Route path="*" element={<NotFound/>} />
       </Routes>
 
       <Footer />
